@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.num_odd,
+.num_3 {
+    background-color: rgb(255,192,203);
+}
+
+#num_2 {
+    color: rgb(173,216,230);
+    font-size: 36px;
+}
+
+#num_4 {
+    background-color: rgb(144, 202, 144);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.num_3 {
+    font-size: 24px;
+}
