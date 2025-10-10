@@ -5,6 +5,12 @@
 		},
 		{
 			"path": ".."
+		},
+		{
+			"path": "../../block-and-inline"
+		},
+		{
+			"path": "../../../../odin-recipes"
 		}
 	],
 	"settings": {}
