@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "../../../../odin-recipes"
+		},
+		{
+			"path": "../../flex"
 		}
 	],
 	"settings": {}
