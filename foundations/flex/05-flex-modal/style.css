@@ -9,17 +9,29 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .modal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .icon {
@@ -31,10 +43,19 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
 }
 
+.text {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.container {
+  margin-left: 16px;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
