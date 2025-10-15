@@ -3,7 +3,6 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100vh;
   overflow: hidden;
   font-family: Roboto, sans-serif;
@@ -15,18 +14,18 @@ img {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
-  padding: 12px;
+  padding: 8px 16px;
 }
 
 input {
@@ -44,10 +43,11 @@ input {
 
 a {
   text-decoration: none;
-  color: gray;
+  color: #666;
 }
 
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
