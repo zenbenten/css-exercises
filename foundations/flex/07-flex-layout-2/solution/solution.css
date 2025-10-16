@@ -33,6 +33,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
@@ -49,6 +50,7 @@ body {
 }
 
 .sidebar {
+  display: flex;
   flex-shrink: 0;
   padding: 16px;
 }
